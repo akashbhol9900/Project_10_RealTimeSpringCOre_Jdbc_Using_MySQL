@@ -41,7 +41,7 @@ AbstractApplicationContext context=new ClassPathXmlApplicationContext("com/nt/co
 	try {
 	String result  =controller.processController(vo);
 	System.out.println(result);
-
+System.out.println("i am akash bhol");
 	}
 	catch (Exception e) {
 		// TODO: handle exception
